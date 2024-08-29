@@ -1,11 +1,10 @@
-import { Avatar, Box, Typography } from "@mui/material";
+import { Avatar, Box } from "@mui/material";
 import { useAuth } from "../../context/AuthContext";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { coldarkDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import robot from "../../assets/robot.png";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { BsFillHandIndexThumbFill } from "react-icons/bs";
 
 function extractCodefromString(message: string) {
   if (message.includes("```")) {
