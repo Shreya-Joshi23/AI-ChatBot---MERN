@@ -11,7 +11,7 @@ const app = express();
 //middlewares
 app.use(
   cors({
-    origin: "https://ai-chatbot-mern-u8g3.onrender.com/",
+    origin: "https://ai-chatbot-mern-u8g3.onrender.com",
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   })
