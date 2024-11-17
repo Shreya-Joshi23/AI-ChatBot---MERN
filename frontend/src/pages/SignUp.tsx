@@ -53,7 +53,6 @@ const SignUp = () => {
         justifyContent="center"
         alignItems="center"
         padding={2}
-        // mt={16}
       >
         <form
           onSubmit={handleSubmit}
