@@ -9,11 +9,8 @@ import { AuthProvider } from "./context/AuthContext.tsx";
 import axios from "axios";
 import { Toaster } from "react-hot-toast";
 
-<<<<<<< HEAD
-axios.defaults.baseURL = "https://ai-chatbot-backend-yyfl.onrender.com/api/v1";
-=======
+
 axios.defaults.baseURL = "https://ai-chatbot-backend-yyfl.onrender.com";
->>>>>>> 5dcb832d8e2418e0eeafa2b2372c65f7b5e0a39a
 axios.defaults.withCredentials = true;
 
 const theme = createTheme({
